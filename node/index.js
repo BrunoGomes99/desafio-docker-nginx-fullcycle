@@ -6,7 +6,8 @@ const config = {
     host: 'db',
     user: 'root',
     password: 'root',
-    database: 'nodedb'
+    database: 'nodedb',
+    port: 3306
 };
 
 const connection = mysql.createConnection(config);
